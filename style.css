@@ -17,7 +17,26 @@ main {
     padding: 1em 2em;
     background: #ff000048;
     margin: 2em auto;
+    box-sizing: border-box;
 }
+
+main section {
+    width: 45%;
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 1em;
+    margin-inline: 5px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+p span {
+    color: red;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+
 
 Header, Footer {
     background: black;
